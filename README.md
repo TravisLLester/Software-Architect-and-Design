@@ -1,37 +1,43 @@
 ## Django Hello World Class Project - Week 5 Lab
 A simple Django web application demonstrating basic routing with JSON and HTML responses.
 
-## Setup
+# Setup
 1.  Clone the repository:
 
 ```bash
 git clone https://github.com/TravisLLester/django-hello-world.git
 ```
 
-# Git Bash
 2.  Create virtual environment:
+
+### Git Bash
   ```bash
   python -m venv .venv
-  Activate virtual environment:
   ```
 
-# Powershell
+Activate virtual environment:
+  ```
+  source .venv/Scripts/activate
+  ```
+
+
+### Powershell
 ```
 .venv\Scripts\activate
 ```
 
-# Mac/Linux
+### Mac/Linux
 ```
 source .venv/bin/activate
 ```
 
-Install dependencies:
+# Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-Run the server:
+# Run the server:
 ```
 python manage.py runserver
 ```

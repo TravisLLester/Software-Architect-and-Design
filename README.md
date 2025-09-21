@@ -15,7 +15,7 @@ git clone https://github.com/TravisLLester/django-hello-world.git
   python -m venv .venv
   ```
 
-Activate virtual environment:
+### Activate virtual environment:
   ```
   source .venv/Scripts/activate
   ```
@@ -23,11 +23,12 @@ Activate virtual environment:
 
 ### Powershell
 ```
-.venv\Scripts\activate
+.venv\Scripts\Activate.ps1
 ```
 
 ### Mac/Linux
 ```
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 

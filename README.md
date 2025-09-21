@@ -6,7 +6,6 @@ A simple Django web application demonstrating basic routing with JSON and HTML r
 
 ```bash
 git clone https://github.com/TravisLLester/django-hello-world.git
-cd django-hello-world
 ```
 
 # Git Bash
